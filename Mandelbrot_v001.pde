@@ -18,7 +18,7 @@ int count = 0;
 
 //resolution is the maximum size of count. A higher resolution will render the fractal
 //with more detail. Try a resolution of 2,3, and then 18 to see how this works
-int resolution = 62;
+int resolution = 64;
 
 //These variables keep track of the width and height of the virtual windows
 float minwindowx = -2;
@@ -36,7 +36,7 @@ float power = 2;
 void setup() 
 { 
   // size(914, 914); //  size(9144, 9144);
-  size(9144, 9144);
+  size(914, 914);
   background(0);
   noLoop();
   drawfractal();
@@ -78,7 +78,7 @@ void drawfractal()
   }
   updatePixels();
   save("mandelbrot_" + resolution + ".png");
-  exit();
+  // exit(); Use for large artworks for Redbubble
 }
 
 float mandel(float startcx, float startcy)
