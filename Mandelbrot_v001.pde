@@ -4,6 +4,8 @@
 // All this code was written by Dan Anderson, but feel free to use in any way that you'd like.
 // https://www.openprocessing.org/sketch/296658
 // fork by Rupert Russell
+// Artwork on redbubble at: 
+// Code on Github at: https://github.com/rupertrussell/MonochromeMandelbrot
 
 
 //fx and fy keep track of the fx + fy*i vector between functions. It was easier to 
